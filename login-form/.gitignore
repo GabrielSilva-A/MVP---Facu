@@ -1,0 +1,40 @@
+# Dependencias
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build output
+dist/
+build/
+
+# Temporales
+temp/
+tmp/
+
+# Additional ignores
+.idea/
+*.sqlite
+*.db
+yarn-debug.log*
+yarn-error.log*
+coverage/
