@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 localStorage.setItem('authToken', data.id);
                 
                 // Redirigir según rol
-                const redirectUrl = data.role === 'admin' ? 'admin-dashboard.html' : 'dashboard.html';
+                const redirectUrl = data.role === 'admin' ? 'admin-dashboard.html' : 'client-dashboard.html';
                 setTimeout(() => { window.location.href = redirectUrl; }, 1000);
             } else {
                 if (errorMessage) {
