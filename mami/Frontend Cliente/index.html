@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plataforma de Cursos Online</title>
+    <title>Soy Mama y Pediatra</title>
     
     <!-- Font Awesome para iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- Hoja de estilos CSS -->
-    <link rel="stylesheet" href="styles/landing.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
@@ -21,37 +21,35 @@
         <div class="nav-container">
             <!-- Logo y nombre -->
             <div class="nav-brand">
-                <i class="fas fa-graduation-cap logo-icon"></i>
-                <span class="brand-name">Plataforma de Cursos</span>
+                <!-- Icono de cliente (placeholder para logo futuro) -->
+                <i class="fas fa-user-circle logo-icon"></i>
+                <span class="brand-name">Soy Mama y Pediatra</span>
             </div>
             
             <!-- Menú de navegación -->
             <ul class="nav-menu" id="navMenu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link active" data-section="home">Inicio</a>
+                    <a href="#" class="nav-link" data-section="seccion1">Sección1</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-section="cursos">Cursos</a>
+                    <a href="#" class="nav-link" data-section="seccion2">Sección2</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-section="nosotros">Sobre Nosotros</a>
+                    <a href="#" class="nav-link" data-section="seccion3">Sección3</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-section="precios">Precios</a>
+                    <a href="#" class="nav-link" data-section="seccion4">Sección4</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-section="testimonios">Testimonios</a>
+                    <a href="#" class="nav-link" data-section="seccion5">Sección5</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-section="contacto">Contacto</a>
+                    <a href="#" class="nav-link" data-section="seccion6">Sección6</a>
                 </li>
             </ul>
             
-            <!-- Botones de autenticación -->
-            <div class="auth-buttons">
-                <a href="login.html" class="btn-secondary">Iniciar Sesión</a>
-                <a href="register.html" class="btn-primary">Registrarse</a>
-            </div>
+            <!-- Botón de iniciar sesión -->
+            <button class="btn-login" id="btnLogin">Iniciar sesión</button>
             
             <!-- Botón hamburguesa para móviles -->
             <div class="hamburger" id="hamburger">
@@ -64,6 +62,7 @@
 
     <!-- Contenido principal (se carga dinámicamente) -->
     <main id="mainContent">
+        <!-- El contenido de cada sección se cargará aquí desde archivos HTML externos -->
         <section id="dynamicSection" class="section">
             <!-- Contenido cargado dinámicamente -->
         </section>
@@ -75,18 +74,18 @@
             <!-- Columna 1: Sobre nosotros -->
             <div class="footer-column">
                 <h3>Sobre Nosotros</h3>
-                <p>Plataforma educativa dedicada a proporcionar cursos de alta calidad para todos los niveles.</p>
-                <p>Nuestra misión es hacer la educación accesible y de calidad para todos.</p>
+                <p>[Descripción de la empresa]</p>
+                <p>[Misión y valores]</p>
             </div>
 
             <!-- Columna 2: Enlaces rápidos -->
             <div class="footer-column">
                 <h3>Enlaces Rápidos</h3>
                 <ul class="footer-links">
-                    <li><a href="#" data-section="home">Inicio</a></li>
-                    <li><a href="#" data-section="cursos">Cursos</a></li>
-                    <li><a href="#" data-section="nosotros">Sobre Nosotros</a></li>
-                    <li><a href="login.html">Iniciar Sesión</a></li>
+                    <li><a href="#">[Enlace 1]</a></li>
+                    <li><a href="#">[Enlace 2]</a></li>
+                    <li><a href="#">[Enlace 3]</a></li>
+                    <li><a href="#">[Enlace 4]</a></li>
                 </ul>
             </div>
 
@@ -94,9 +93,9 @@
             <div class="footer-column">
                 <h3>Contacto</h3>
                 <ul class="footer-contact">
-                    <li><i class="fas fa-envelope"></i> info@plataformacursos.com</li>
-                    <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Ciudad, País</li>
+                    <li><i class="fas fa-envelope"></i> [Email]</li>
+                    <li><i class="fas fa-phone"></i> [Teléfono]</li>
+                    <li><i class="fas fa-map-marker-alt"></i> [Dirección]</li>
                 </ul>
             </div>
 
@@ -114,11 +113,11 @@
 
         <!-- Copyright -->
         <div class="footer-bottom">
-            <p>&copy; 2025 Plataforma de Cursos. Todos los derechos reservados.</p>
+            <p>&copy; 2025 [Nombre de la empresa]. Todos los derechos reservados.</p>
         </div>
     </footer>
 
     <!-- Script JavaScript -->
-    <script src="scripts/landing.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
