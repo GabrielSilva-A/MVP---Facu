@@ -1,0 +1,28 @@
+/* Navbar común para todas las páginas
+   - Alinea correctamente el nombre de usuario a la derecha
+   - Incrementa tamaño de texto de los enlaces
+   - Hace el navbar responsive y consistente
+*/
+
+.navbar { background: #ffffff; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.nav-container { max-width: 1400px; margin: 0 auto; padding: 0.8rem 1.2rem; display: flex; align-items: center; gap: 1rem; }
+.nav-brand { display: flex; align-items: center; gap: 10px; font-weight: 600; color: #2c3e50; font-size: 1.05rem; }
+.nav-menu { list-style: none; display: flex; gap: 1.2rem; align-items: center; margin: 0; padding: 0; }
+.nav-menu .nav-link { text-decoration: none; color: #333; font-weight: 600; font-size: 1rem; padding: 0.45rem 0.3rem; display: inline-block; }
+.nav-menu .nav-link:hover, .nav-menu .nav-link.active { color: #0d6efd; }
+
+/* push user box to the far right */
+.user-box { margin-left: auto; display: flex; align-items: center; gap: 12px; }
+.auth-buttons { margin-left: auto; display: flex; align-items: center; gap: 8px; }
+.user-name, #userName { font-size: 0.95rem; font-weight: 600; color: #2c3e50; margin-right: 6px; }
+.btn-logout, .btn-panel { border-radius: 22px; padding: 6px 10px; font-size: 0.95rem; }
+.btn-logout { background: #dc3545; color: #fff; border: none; }
+.btn-panel { background: #0d6efd; color: #fff; border: none; }
+
+/* Responsive: collapse spacing on small screens */
+@media (max-width: 768px) {
+  .nav-container { padding: 0.6rem 1rem; }
+  .nav-menu { gap: 0.8rem; }
+  .nav-menu .nav-link { font-size: 0.95rem; }
+  .user-name { display: none; }
+}
