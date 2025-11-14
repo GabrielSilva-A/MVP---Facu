@@ -5,10 +5,10 @@
 */
 
 .navbar { background: #ffffff; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
-.nav-container { max-width: 1400px; margin: 0 auto; padding: 0.8rem 1.2rem; display: flex; align-items: center; gap: 1rem; }
+.nav-container { max-width: 1400px; margin: 0 auto; padding: 0.8rem 1.2rem; display: flex; align-items: center; gap: 1rem; justify-content: flex-start !important; width: 100%; }
 .nav-brand { display: flex; align-items: center; gap: 10px; font-weight: 600; color: #2c3e50; font-size: 1.05rem; }
 .nav-menu { list-style: none; display: flex; gap: 1.2rem; align-items: center; margin: 0; padding: 0; }
-.nav-menu .nav-link { text-decoration: none; color: #333; font-weight: 600; font-size: 1rem; padding: 0.45rem 0.3rem; display: inline-block; }
+.nav-menu .nav-link { text-decoration: none; color: #333; font-weight: 600; font-size: 1.05rem; padding: 0.45rem 0.6rem; display: inline-block; }
 .nav-menu .nav-link:hover, .nav-menu .nav-link.active { color: #0d6efd; }
 
 /* push user box to the far right */
